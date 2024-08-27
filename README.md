@@ -1,26 +1,40 @@
-Overview
+# Pong Shooter Game
 
-Welcome to the Pong Shooter Game! This two-player game combines the classic elements of Pong with an exciting twist - each side is armed with a pistol shooting bullets. The goal is simple: Depleat your enemies health to 0 while avoiding being hit by bullets yourself!
+Welcome to the Pong Shooter Game! This two-player game combines the classic elements of Pong with an exciting twist: each player is armed with a pistol. The objective is to deplete your opponent's health to zero while avoiding their bullets.
 
-How to Play
+## How to Play
 
-Controls:
-Player 1 (Left Side):
-Move Up: W
-Move Right: D
-Move Left: A
-Move Down: S
-Shoot: CTRL
-Player 2 (Right Side):
-Move Up: Up Arrow
-Move Down: Down Arrow
-Shoot: Space
+### Controls:
 
-Game Objective:
-Defend your side while trying to depleat the opponents 10 health points.
+**Player 1 (Left Side):**  
+- Move Up: `W`  
+- Move Down: `S`  
+- Move Left: `A`  
+- Move Right: `D`  
+- Shoot: `Ctrl`
 
-Scoring:
-Each player starts with 10 health points, each bullet hit removes 1 health point.
+**Player 2 (Right Side):**  
+- Move Up: `Up Arrow`  
+- Move Down: `Down Arrow`  
+- Shoot: `Space`
 
-Game End:
-The game ends when one player reaches 0 health, or the game is exited.
+### Game Objective
+
+Defend your side while trying to reduce the opponent's health from 10 to 0.
+
+### Scoring
+
+Each player starts with 10 health points. Each bullet hit reduces the opponent's health by 1 point.
+
+### Game End
+
+The game ends when a player's health reaches 0 or the game is exited.
+
+## Installation and Setup
+
+### Prerequisites
+
+- Install Python from [python.org](https://www.python.org/downloads/).
+- Install Pygame by running the following command in your terminal:
+  ```bash
+  pip install pygame
