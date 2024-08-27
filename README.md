@@ -15,7 +15,9 @@ Welcome to the Pong Shooter Game! This two-player game combines the classic elem
 
 **Player 2 (Right Side):**  
 - Move Up: `Up Arrow`  
-- Move Down: `Down Arrow`  
+- Move Down: `Down Arrow`
+- Move Left: `Left Arrow`
+- Move Right: `Right Arrow` 
 - Shoot: `Space`
 
 ### Game Objective
