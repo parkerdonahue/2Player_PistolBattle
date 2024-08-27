@@ -30,11 +30,18 @@ Each player starts with 10 health points. Each bullet hit reduces the opponent's
 
 The game ends when a player's health reaches 0 or the game is exited.
 
-## Installation and Setup
-
 ### Prerequisites
 
 - Install Python from [python.org](https://www.python.org/downloads/).
 - Install Pygame by running the following command in your terminal:
   ```bash
   pip install pygame
+
+### Running the Game
+
+1. Download the game files from the [GitHub repository](https://github.com/parkerdonahue/2Player_PistolBattle/tree/main). You can clone the repository or download it as a ZIP file and extract it.
+2. Open a terminal or command prompt.
+3. Navigate to the directory where the game files are located.
+4. Run the game by executing the following command:
+   ```bash
+   python main.py
